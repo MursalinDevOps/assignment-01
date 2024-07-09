@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* HEADER SECTION STYLES */
+/* HEADER SECTION STYLE STARTS HERE */
 
 .header-container {
     margin: 0 auto;
@@ -69,7 +69,9 @@
     outline: none;
 }
 
-/* WHY WEB DEVELOPMENT SECTION STYLES */
+/* HEADER SECTION STYLE ENDS HERE */
+
+/* WHY WEB DEVELOPMENT SECTION STYLE STARTS HERE */
 
 /* UNIVERSAL BUTTON */
 .learn-more-btn {
@@ -196,4 +198,55 @@
     margin-top: 16px;
 }
 
-/*  */
+/* WHY WEB DEVELOPMENT SECTION STYLE STARTS HERE */
+
+/* MY INSPIRATION SECTION STYLE STARTS HERE */
+
+.inspiration-container {
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inspiration-contents {
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.inspiration-contents h1 {
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.inspiration-contents p {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.yt-vid{
+    margin: 32px;
+}
+
+/* MY INSPIRATION SECTION STYLE ENDS HERE */
+
+
