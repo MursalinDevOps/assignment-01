@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* HEADER SECTION STYLES */
+
 .header-container {
     margin: 0 auto;
     width: 1440px;
@@ -23,9 +25,11 @@
     align-items: center;
     justify-content: center;
 }
-.header-contents img{
+
+.header-contents img {
     margin-top: 10px;
 }
+
 .header-contents h1 {
     margin-top: 32px;
     margin-bottom: 20px;
@@ -35,10 +39,12 @@
     font-size: 48px;
     font-weight: 800;
 }
-.header-contents a{
+
+.header-contents a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
 .header-contents p {
     width: 852px;
     height: 52px;
@@ -63,3 +69,93 @@
     outline: none;
 }
 
+/* WHY WEB DEVELOPMENT SECTION STYLES */
+.why-web-dev {
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    height: 1393px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.why-web-dev-container {
+    width: 946px;
+    height: 1233px;
+    margin: 80px 97px;
+    border: 2px solid green;
+}
+
+.why-web-dev-title-container {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-web-dev-title-container h1 {
+
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.why-web-dev-title-container p {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 24px 0px 48px 0px;
+}
+
+/*  */
+.why-web-dev-top-container {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background:#ffffff ;
+}
+
+.why-web-dev-top-left {
+    width: 477px;
+    height: 220px;
+    border: 1px dotted blue;
+}
+
+.why-web-dev-top-left h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.why-web-dev-top-left p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+
+.learn-more-btn {
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
