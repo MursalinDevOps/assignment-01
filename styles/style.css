@@ -85,15 +85,18 @@
     cursor: pointer;
     margin-top: 30px;
 }
+
 /* UNIVERSAL BUTTON */
 
 .why-web-dev {
     border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
+    background: rgba(13, 19, 33, 0.02);
     width: 1140px;
     height: 1393px;
-    border: 2px solid red;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .why-web-dev-container {
@@ -128,7 +131,8 @@ background: rgba(13, 19, 33, 0.02);
     margin: 24px 0px 48px 0px;
 }
 
-.why-web-dev-top-container {
+/* design below s shared between top and bottom content*/
+.why-web-dev-top-bottom-container {
     width: 946px;
     height: 336px;
     margin: 0 auto;
@@ -136,29 +140,31 @@ background: rgba(13, 19, 33, 0.02);
     justify-content: space-between;
     align-items: center;
     border-radius: 16px;
-    background:#ffffff ;
-    margin-bottom: 30px;
-    padding-left: 32px;
+    background: #ffffff;
+    margin-bottom: 32px;
+    padding: 48px;
+    margin-top: 40px;
 }
 
-.why-web-dev-top-left {
+.why-web-dev-top-bottom-left {
     width: 477px;
     height: 220px;
 }
 
-.why-web-dev-top-left h1 {
+.why-web-dev-top-bottom-left h1 {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
 }
 
-.why-web-dev-top-left p {
+.why-web-dev-top-bottom-left p {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     margin-top: 16px;
 }
 
+/* center parts design starts here*/
 .why-web-dev-center-container {
     width: 946px;
     height: 336px;
@@ -167,8 +173,9 @@ background: rgba(13, 19, 33, 0.02);
     gap: 32px;
     align-items: center;
     border-radius: 16px;
-    background:#ffffff ;
+    background: #ffffff;
     margin-bottom: 30px;
+    padding: 48px;
 }
 
 .why-web-dev-center-left {
@@ -188,4 +195,5 @@ background: rgba(13, 19, 33, 0.02);
     font-weight: 400;
     margin-top: 16px;
 }
+
 /*  */
