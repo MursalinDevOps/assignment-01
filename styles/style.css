@@ -70,6 +70,23 @@
 }
 
 /* WHY WEB DEVELOPMENT SECTION STYLES */
+
+/* UNIVERSAL BUTTON */
+.learn-more-btn {
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* UNIVERSAL BUTTON */
+
 .why-web-dev {
     border-radius: 16px;
 background: rgba(13, 19, 33, 0.02);
@@ -83,7 +100,6 @@ background: rgba(13, 19, 33, 0.02);
     width: 946px;
     height: 1233px;
     margin: 80px 97px;
-    border: 2px solid green;
 }
 
 .why-web-dev-title-container {
@@ -112,7 +128,6 @@ background: rgba(13, 19, 33, 0.02);
     margin: 24px 0px 48px 0px;
 }
 
-/*  */
 .why-web-dev-top-container {
     width: 946px;
     height: 336px;
@@ -122,12 +137,13 @@ background: rgba(13, 19, 33, 0.02);
     align-items: center;
     border-radius: 16px;
     background:#ffffff ;
+    margin-bottom: 30px;
+    padding-left: 32px;
 }
 
 .why-web-dev-top-left {
     width: 477px;
     height: 220px;
-    border: 1px dotted blue;
 }
 
 .why-web-dev-top-left h1 {
@@ -143,19 +159,33 @@ background: rgba(13, 19, 33, 0.02);
     margin-top: 16px;
 }
 
-
-
-.learn-more-btn {
-    width: 150px;
-    height: 48px;
-    color: rgb(13, 19, 33);
-    font-size: 20px;
-    font-weight: 600;
-    background: transparent;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    cursor: pointer;
-    margin-top: 30px;
-
+.why-web-dev-center-container {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    border-radius: 16px;
+    background:#ffffff ;
+    margin-bottom: 30px;
 }
+
+.why-web-dev-center-left {
+    width: 240px;
+    height: 240px;
+}
+
+.why-web-dev-center-right h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.why-web-dev-center-right p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+/*  */
