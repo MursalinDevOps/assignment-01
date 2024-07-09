@@ -73,22 +73,6 @@
 
 /* WHY WEB DEVELOPMENT SECTION STYLE STARTS HERE */
 
-/* UNIVERSAL BUTTON */
-.learn-more-btn {
-    width: 150px;
-    height: 48px;
-    color: rgb(13, 19, 33);
-    font-size: 20px;
-    font-weight: 600;
-    background: transparent;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    cursor: pointer;
-    margin-top: 30px;
-}
-
-/* UNIVERSAL BUTTON */
 
 .why-web-dev {
     border-radius: 16px;
@@ -99,6 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 88px;
 }
 
 .why-web-dev-container {
@@ -198,6 +183,23 @@
     margin-top: 16px;
 }
 
+/* UNIVERSAL BUTTON */
+.learn-more-btn {
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* UNIVERSAL BUTTON */
+
 /* WHY WEB DEVELOPMENT SECTION STYLE STARTS HERE */
 
 /* MY INSPIRATION SECTION STYLE STARTS HERE */
@@ -243,10 +245,112 @@
     font-weight: 400;
     opacity: 0.7;
 }
-.yt-vid{
+
+.yt-vid {
     margin: 32px;
 }
 
 /* MY INSPIRATION SECTION STYLE ENDS HERE */
 
+/* MY CURRENTS TARGET SECTION STYLE STARTS HERE */
 
+.current-target-container {
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-target-text {
+    width: 946px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.current-target-text h1 {
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.current-target-text p {
+
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0px 48px;
+}
+/* CARD STYLES */
+.cards-container{
+    width: 1140px;
+height: 300px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 24px;
+}
+
+
+.cards{
+    width: 364px;
+height: 300px;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.card{
+    border-radius: 16px;
+    padding: 40px;
+}
+#html-card{
+
+    background: rgba(255, 76, 30, 0.05);
+}
+#css-card{
+    background: rgba(0, 76, 232, 0.05);
+}
+#js-card{
+    background: rgba(255, 223, 0, 0.05);
+}
+.card img{
+    width: 56px;
+    height: 56px;
+}
+.card h1{
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;  
+}
+.card p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.card a{
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* MY CURRENTS TARGET SECTION STYLE ENDS HERE */
